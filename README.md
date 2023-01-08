@@ -14,3 +14,7 @@ The UI was designed with [MidJourney](https://www.midjourney.com/home/?callbackU
 
 ## Notes
 I only spent one day on this, so this is only the basic design. It's not an exact copy. If this were a real project, I would spend the time to fine tune the design.
+
+and here is a screen shot of the final results:
+
+![](references/Capture.jpg)
