@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #1f3337ff;
+    border-top: 3px solid black;
+    box-sizing: border-box;
+}
+
+.spanner {
+    width: 100%;
+    display: flex;
+}
+
+.green-box {
+    flex: 1;
+    height: 30px;
+    background-color: #344143ff;
+    border-bottom: 3px solid black;
+}
+
+.blue-box {
+    height: 30px;
+    width: 30px;
+    background-color: #455658;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}

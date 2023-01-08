@@ -1,0 +1,50 @@
+// This file only exists to store values used throughout the app.
+// This is a color scheme pulled from the original design.
+
+/* CSS HEX */
+// --outer-space-crayola: #1f3337ff;
+// --outer-space-crayola-2: #344143ff;
+// --camel: #b18d58ff;
+// --bone: #d9ccb9ff;
+// --liver-organ: #712d21ff;
+
+/* CSS HSL */
+// --outer-space-crayola: hsla(190, 28%, 17%, 1);
+// --outer-space-crayola-2: hsla(188, 13%, 23%, 1);
+// --camel: hsla(36, 36%, 52%, 1);
+// --bone: hsla(36, 30%, 79%, 1);
+// --liver-organ: hsla(9, 55%, 29%, 1);
+
+/* SCSS HEX */
+$outer-space-crayola: #1f3337ff;
+$outer-space-crayola-2: #344143ff;
+$camel: #b18d58ff;
+$bone: #d9ccb9ff;
+$liver-organ: #712d21ff;
+$light-blue: #455658;
+$light-tan: #595340;
+
+/* SCSS HSL */
+$outer-space-crayola: hsla(190, 28%, 17%, 1);
+$outer-space-crayola-2: hsla(188, 13%, 23%, 1);
+$camel: hsla(36, 36%, 52%, 1);
+$bone: hsla(36, 30%, 79%, 1);
+$liver-organ: hsla(9, 55%, 29%, 1);
+
+/* SCSS RGB */
+$outer-space-crayola: rgba(31, 51, 55, 1);
+$outer-space-crayola-2: rgba(52, 65, 67, 1);
+$camel: rgba(177, 141, 88, 1);
+$bone: rgba(217, 204, 185, 1);
+$liver-organ: rgba(113, 45, 33, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #1f3337ff, #344143ff, #b18d58ff, #d9ccb9ff, #712d21ff);
+$gradient-right: linear-gradient(90deg, #1f3337ff, #344143ff, #b18d58ff, #d9ccb9ff, #712d21ff);
+$gradient-bottom: linear-gradient(180deg, #1f3337ff, #344143ff, #b18d58ff, #d9ccb9ff, #712d21ff);
+$gradient-left: linear-gradient(270deg, #1f3337ff, #344143ff, #b18d58ff, #d9ccb9ff, #712d21ff);
+$gradient-top-right: linear-gradient(45deg, #1f3337ff, #344143ff, #b18d58ff, #d9ccb9ff, #712d21ff);
+$gradient-bottom-right: linear-gradient(135deg, #1f3337ff, #344143ff, #b18d58ff, #d9ccb9ff, #712d21ff);
+$gradient-top-left: linear-gradient(225deg, #1f3337ff, #344143ff, #b18d58ff, #d9ccb9ff, #712d21ff);
+$gradient-bottom-left: linear-gradient(315deg, #1f3337ff, #344143ff, #b18d58ff, #d9ccb9ff, #712d21ff);
+$gradient-radial: radial-gradient(#1f3337ff, #344143ff, #b18d58ff, #d9ccb9ff, #712d21ff);

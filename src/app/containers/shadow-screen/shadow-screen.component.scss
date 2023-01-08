@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow-container {
+    width: calc(90vh - 30px);
+    height: calc(90vh - 30px);
+    box-shadow: inset 4px 10px 10px 2px #000;
+}

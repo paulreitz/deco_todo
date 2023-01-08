@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="content">
+        <div class="content-grid">
+            <div class="grid-cell">
+                <app-upper-deco></app-upper-deco>
+            </div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell flipped">
+                <app-upper-deco></app-upper-deco>
+            </div>
+            <div class="grid-cell">
+                <app-title-deco></app-title-deco>
+            </div>
+            <div class="grid-cell title">
+                <span class="title-text">TODO</span>
+            </div>
+            <div class="grid-cell flipped">
+                <app-title-deco></app-title-deco>
+            </div>
+            <div class="grid-cell">
+                <app-mid-deco></app-mid-deco>
+            </div>
+            <div class="grid-cell list-cell">
+                <app-todo></app-todo>
+            </div>
+            <div class="grid-cell flipped">
+                <app-mid-deco [extra]="true"></app-mid-deco>
+            </div>
+            <div class="grid-cell">
+                <app-lower-deco></app-lower-deco>
+            </div>
+            <div class="grid-cell flipped">
+                <app-lower-deco></app-lower-deco>
+            </div>
+        </div>
+    </div>
+</div>

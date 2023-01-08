@@ -1,0 +1,41 @@
+<div class="container">
+    <!-- input -->
+    <div class="input-container">
+        <mat-icon class="todo-add-list">list_alt</mat-icon>
+        <input
+            matInput
+            placeholder="What to do next?"
+            class="todo-input"
+            id="todo"
+        >
+        <button
+            mat-flat-button
+            color="primary"
+            class="add-button"
+            id="add-todo"
+            (click)="addTodo()"
+        >Add Todo</button>
+    </div>
+
+    <!-- list -->
+    <div class="list-container">
+        <mat-list>
+            <mat-list-item *ngFor="let todo of todos, index as i">
+                <div class="todo-item-container">
+                    <img src="assets/images/icons/{{todo.icon}}" class="todo-icon">
+                    <span class="todo-text">{{todo.text}}</span>
+                    <div class="controls">
+                        <mat-checkbox [checked]="todo.completed" (change)="toggleCompleted(i)"></mat-checkbox>
+                        <mat-icon class="delete" (click)="delete(i)">delete</mat-icon>
+                    </div>
+                </div>
+            </mat-list-item>
+        </mat-list>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="block block-blue"></div>
+        <div class="block"></div>
+        <div class="block block-blue"></div>
+    </div>
+</div>
